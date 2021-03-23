@@ -23,6 +23,10 @@ body, html {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ---------------------------------------------------------------------- */
 /* -----------------------------Background------------------------------- */
 /* ---------------------------------------------------------------------- */
@@ -41,6 +45,7 @@ body, html {
 /* -----------------------------Navigation------------------------------- */
 /* ---------------------------------------------------------------------- */
 
+/* Make the header */
 .header{
   height: 80px;
   background: transparent;
@@ -52,6 +57,8 @@ body, html {
   right: 0;
   z-index: 1030;
 }
+
+/* Set the logo */
 .logo{
   line-height: 80px;
   float: left;
@@ -61,6 +68,7 @@ body, html {
   color: #fff;
 }
 
+/* Set the clickable nav to the right */
 .menu{
   float: right;
   line-height: 80px;
@@ -71,12 +79,19 @@ body, html {
   font-size: 20px;
 }
 
+/* Transition and color of attribute tags */
 .menu a{
   color: #fff;
   text-decoration: none;
   padding: 0 20px;
   transition: 0.4s;
 }
+
+/* Set color for hover */
+menu a:hover {
+  text-decoration: underline;
+}
+
 .show-menu-btn,.hide-menu-btn{
   transition: 0.4s;
   font-size: 30px;
@@ -84,12 +99,15 @@ body, html {
   display: none;
   color: #fff;
 }
+
 .show-menu-btn{
   float: right;
 }
+
 .show-menu-btn i{
   line-height: 100px;
 }
+
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover {
@@ -150,5 +168,43 @@ body, html {
 
   .hide-menu-btn {
     color: #000000;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* ------------------------------Sections-------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+/* Section for text */
+.main {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Make text smaller and centered on desktop screen */
+.main p {
+  margin-top: 10px;
+  font-size: 18px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Header Underline */
+hr {
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  color: #AEC6CF
+}
+
+/* Make text larger and on the left for mobile */
+@media screen and (max-width:800px) {
+  .main p {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
   }
 }
