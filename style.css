@@ -5,7 +5,7 @@
 body {
   font-family: 'Montserrat';
   font-size: 22px;
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 *, body{
@@ -33,12 +33,25 @@ html {
 /* ---------------------------------------------------------------------- */
 
 .bg {
-  background-image: url("background.jpg");
+  background-image: url("background3.png");
   opacity: 0.78;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bgtext {
+  padding-top: 20%;
+  text-align: left;
+  padding-left: 100px;
+}
+
+@media screen and (max-width:800px) {
+  .bgtext {
+    padding-left: 20px;
+    font-size: 15px;
+  }
 }
 
 
@@ -66,7 +79,7 @@ html {
   position: fixed;
   top: 0;
   z-index: 1030;
-  color: #fff;
+  color: #000000;
 }
 
 /* Set the clickable nav to the right */
@@ -82,15 +95,10 @@ html {
 
 /* Transition and color of attribute tags */
 .menu a{
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   padding: 0 20px;
   transition: 0.4s;
-}
-
-/* Set color for hover */
-menu a:hover {
-  text-decoration: underline;
 }
 
 .show-menu-btn,.hide-menu-btn{
@@ -98,7 +106,7 @@ menu a:hover {
   font-size: 30px;
   cursor: pointer;
   display: none;
-  color: #fff;
+  color: black;
 }
 
 .show-menu-btn{
@@ -179,6 +187,10 @@ menu a:hover {
   .hide-menu-btn {
     color: #000000;
   }
+
+  .bg {
+    background-image: url("background5.png");
+  }
 }
 
 /* ---------------------------------------------------------------------- */
@@ -209,12 +221,26 @@ hr {
   color: #AEC6CF
 }
 
+/* Adds space for navbar to scroll to */
+.main h2 {
+  margin-top: 90px;
+}
+
 /* Make text larger and on the left for mobile */
 @media screen and (max-width:800px) {
   .main p {
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    text-align: left;
+    text-align: center;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* ----------------------Embeded-REPL.it-editor-------------------------- */
+/* ---------------------------------------------------------------------- */
+@media screen and (max-width:800px) {
+  .main p iframe {
+    height: 400px;
   }
 }
