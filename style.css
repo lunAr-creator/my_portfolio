@@ -5,6 +5,7 @@
 body {
   font-family: 'Montserrat';
   font-size: 22px;
+  background-color: #f1f1f1;
 }
 
 *, body{
@@ -120,11 +121,16 @@ menu a:hover {
   z-index: -1111;
 }
 
+.header.scrolled {
+  background: #f1f1f1;
+  color: black;
+}
+
 /* ---------------------------------------------------------------------- */
 /* --------------------------Responsive-Menu---------------------------- */
 /* ---------------------------------------------------------------------- */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
   .show-menu-btn,.hide-menu-btn{
     display: block;
   }
@@ -159,6 +165,10 @@ menu a:hover {
   }
 
   .logo {
+    line-height: 90px;
+  }
+
+  .menu ul a {
     line-height: 90px;
   }
 
