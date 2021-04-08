@@ -33,8 +33,7 @@ html {
 /* ---------------------------------------------------------------------- */
 
 .bg {
-  background-image: url("background3.png");
-  opacity: 0.78;
+  background-image: url("background6.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -142,6 +141,7 @@ html {
   .show-menu-btn,.hide-menu-btn{
     display: block;
   }
+  
   .menu{
     position: fixed;
     width: 100%;
@@ -154,16 +154,19 @@ html {
     line-height: normal;
     transition: 0.7s;
   }
+
   .menu a{
     display: block;
     padding: 20px;
     color: black;
   }
+
   .hide-menu-btn{
     position: absolute;
     top: 40px;
     right: 40px;
   }
+
   #chk:checked ~ .menu{
     right: 0;
   }
@@ -186,10 +189,6 @@ html {
 
   .hide-menu-btn {
     color: #000000;
-  }
-
-  .bg {
-    background-image: url("background5.png");
   }
 }
 
@@ -239,6 +238,7 @@ hr {
 /* ---------------------------------------------------------------------- */
 /* ----------------------Embeded-REPL.it-editor-------------------------- */
 /* ---------------------------------------------------------------------- */
+
 @media screen and (max-width:800px) {
   .main p iframe {
     height: 400px;
