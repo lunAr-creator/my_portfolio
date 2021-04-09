@@ -209,20 +209,22 @@ html {
   font-size: 18px;
   padding-left: 100px;
   padding-right: 100px;
+  line-height: 1.2;
 }
 
 /* Header Underline */
 hr {
-  width: 230px;
+  width: 280px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  color: #AEC6CF
+  color: black;
 }
 
 /* Adds space for navbar to scroll to */
 .main h2 {
   margin-top: 90px;
+  padding-bottom: 20px;
 }
 
 /* Footer at the bottom */
