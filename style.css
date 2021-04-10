@@ -33,7 +33,7 @@ html {
 /* ---------------------------------------------------------------------- */
 
 .bg {
-  background-image: url("background6.png");
+  background-image: url("background7.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,6 +50,10 @@ html {
   .bgtext {
     padding-left: 20px;
     font-size: 15px;
+  }
+
+  .bg {
+    background-image: url("background9.png");
   }
 }
 
