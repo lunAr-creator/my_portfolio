@@ -299,11 +299,6 @@ i:hover {
 }
 
 /* ---------------------------------------------------------------------- */
-/* ----------------------------Contact-form------------------------------ */
-/* ---------------------------------------------------------------------- */
-
-
-/* ---------------------------------------------------------------------- */
 /* ----------------------------Project-Cards----------------------------- */
 /* ---------------------------------------------------------------------- */
 
@@ -338,12 +333,6 @@ i:hover {
   .main-card {
     margin-left: 5px;
   }
-}
-
-h1 {
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
 }
 
 img {
@@ -388,35 +377,46 @@ img {
 
 .card_content {
   background: #f1f1f1;
-  padding-left: 0px;
-  padding-right: 0px;
+  text-align: center;
 }
 
 .card_title {
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card_content p {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .card_text {
-  color: #ffffff;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;    
-  font-weight: 400;
   color: black;
-}
-.made_by{
-  font-weight: 400;
-  font-size: 13px;
-  margin-top: 35px;
-  text-align: center;
 }
 
-.card_content h2 {
+/* ---------------------------------------------------------------------- */
+/* -----------------------------Card-Buttons----------------------------- */
+/* ---------------------------------------------------------------------- */
+
+.project-demo-button a:link, a:visited {
+  background-color: transparent;
   color: black;
+  padding: 14px 25px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
+
+.project-demo-button a:hover, a:active {
+  background-color: #AEC6CF;
+  color: white;
+  transition: 0.3s ease;
+}
+
+/* ---------------------------------------------------------------------- */
+/* ----------------------------Contact-form------------------------------ */
+/* ---------------------------------------------------------------------- */
