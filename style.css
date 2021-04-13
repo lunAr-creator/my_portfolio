@@ -302,27 +302,6 @@ i:hover {
 /* ----------------------------Project-Cards----------------------------- */
 /* ---------------------------------------------------------------------- */
 
-.project-card {
-  width: auto;
-  height: 200px;
-  background-color: #f1f1f1;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 20px;
-}
-
-@media screen and (max-width:800px) {
-  .project-card {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-
-.project-card p {
-  margin-left: 0px;
-  margin-top: 10px;
-}
-
 .main-card{
   max-width: 1200px;
   margin-left: 83px;
@@ -369,7 +348,7 @@ img {
 .card {
   background-color: #f1f1f1;
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  /*box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);*/
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -400,22 +379,48 @@ img {
 /* -----------------------------Card-Buttons----------------------------- */
 /* ---------------------------------------------------------------------- */
 
-.project-demo-button a:link, a:visited {
+.project-demo-button a:link {
   background-color: transparent;
-  color: black;
-  padding: 14px 25px;
+  color: white;
+  padding: 10px 21px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  border-radius: 4px;
+  border-radius: 30px;
   margin-bottom: 20px;
+  background-color: #AEC6CF;
 }
 
-.project-demo-button a:hover, a:active {
-  background-color: #AEC6CF;
-  color: white;
-  transition: 0.3s ease;
+.project-demo-button a:hover {
+  background-color: #c1dbe6;
 }
+
+/* ---------------------------------------------------------------------- */
+/* -------------------------------Blog-Cards----------------------------- */
+/* ---------------------------------------------------------------------- */
+
+.blog-post-card {
+  width: auto;
+  height: 200px;
+  background-color: #f1f1f1;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  border-radius: 0.25rem;
+}
+
+@media screen and (max-width:800px) {
+  .blog-post-card {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.blog-post-card p {
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
 
 /* ---------------------------------------------------------------------- */
 /* ----------------------------Contact-form------------------------------ */
