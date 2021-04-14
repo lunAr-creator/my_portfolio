@@ -84,6 +84,19 @@ html {
   z-index: 1030;
   color: #000000;
 }
+.logo-pwgen{
+  line-height: 80px;
+  float: left;
+  position: fixed;
+  top: 2px;
+  z-index: 1030;
+}
+
+@media screen and (max-width:800px) {
+  .logo-pwgen {
+    top: 2px;
+  }
+}
 
 /* Set the clickable nav to the right */
 .menu{
@@ -135,6 +148,15 @@ html {
 .header.scrolled {
   background: #f1f1f1;
   color: black;
+}
+
+.back-arrow {
+  color: black;
+}
+
+.back-arrow:hover {
+  color: #AEC6CF;
+  transition: 0.3s ease;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -293,8 +315,8 @@ i:hover {
 /* ---------------------------------------------------------------------- */
 
 @media screen and (max-width:800px) {
-  .main p iframe {
-    height: 400px;
+  .iframe {
+    visibility: hidden;
   }
 }
 
