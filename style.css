@@ -401,7 +401,7 @@ img {
 /* -----------------------------Card-Buttons----------------------------- */
 /* ---------------------------------------------------------------------- */
 
-.project-demo-button a:link {
+.project-demo-button a {
   background-color: transparent;
   color: white;
   padding: 10px 21px;
