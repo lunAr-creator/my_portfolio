@@ -75,6 +75,19 @@ html {
   z-index: 1030;
 }
 
+.header-gallery{
+  height: 80px;
+  background: #000000;
+  padding: 0 20px;
+  color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+
 /* Set the logo */
 .logo{
   line-height: 80px;
