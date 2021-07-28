@@ -84,12 +84,14 @@ html {
   z-index: 1030;
   color: #000000;
 }
+
 .logo-pwgen{
   line-height: 80px;
   float: left;
   position: fixed;
   top: 2px;
   z-index: 1030;
+  color: #000000;
 }
 
 @media screen and (max-width:800px) {
