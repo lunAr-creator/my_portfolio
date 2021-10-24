@@ -32,9 +32,9 @@ html {
 /* -----------------------------Background------------------------------- */
 /* ---------------------------------------------------------------------- */
 
-.bg {
-  background-image: url("background7.png");
-  height: 100%;
+/* .bg {
+  background-image: url("background2.jpg");
+  height: 40%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,9 +53,9 @@ html {
   }
 
   .bg {
-    background-image: url("background9.png");
+    background-image: url("background2.jpg");
   }
-}
+} */
 
 
 /* ---------------------------------------------------------------------- */
@@ -151,7 +151,7 @@ html {
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover {
-  color: #AEC6CF;
+  color: #fff;
 }
 
 #chk{
@@ -182,7 +182,7 @@ html {
   .show-menu-btn,.hide-menu-btn{
     display: block;
   }
-  
+
   .menu{
     position: fixed;
     width: 100%;
@@ -461,6 +461,11 @@ img {
 
 
 /* ---------------------------------------------------------------------- */
-/* ----------------------------Contact-form------------------------------ */
+/* --------------------------------Curve--------------------------------- */
 /* ---------------------------------------------------------------------- */
 
+@media screen and (max-width:800px) {
+  svg {
+    height: 200px;
+  }
+}
