@@ -10,28 +10,27 @@
 </head>
 <body>
 
-<title>Numens - Portfolio</title>
+<title>LunAr-Creator - Portfolio</title>
 <div class="bg" id='home'></div>
-
 <div class="header" id='pronav'>
   <div class='logo' id='logo'>
-    <p style='font-size:35px;'><a href="index.html" style="text-decoration:none;color:black;">Numens :D</a></p>
+    <p style='font-size:35px;'><a href="index.html" class="logo_text" id="log_text">lunAr-creator</a></p>
   </div>
   <input type="checkbox" id="chk">
   <label for="chk" class="show-menu-btn" id='hamburger'>
     <i class="fas fa-bars"></i>
   </label>
   <ul class="menu" id='navbar'>
-    <a href="#home" onclick="navbarFunc()">Home</a>
-    <a href="#about" onclick="navbarFunc()">About</a>
-    <a href="#projects" onclick="navbarFunc()">Projects</a>
+    <a href="#home" id="link1" onclick="navbarFunc()" onmouseover="changeToBlueColor()" onmouseout="changeToBlackColor()">Home</a>
+    <a href="#about" id="link2" onclick="navbarFunc()">About</a>
+    <a href="#projects" id="link3" onclick="navbarFunc()">Projects</a>
     <label for="chk" class="hide-menu-btn">
       <i class="fas fa-times"></i>
     </label>
   </ul>
 </div>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="#D8D9DE" fill-opacity="1" d="M0,288L60,293.3C120,299,240,309,360,277.3C480,245,600,171,720,165.3C840,160,960,224,1080,234.7C1200,245,1320,203,1380,181.3L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="#D8D9DE" fill-opacity="1" d="M0,288L60,293.3C120,299,240,309,360,277.3C480,245,600,171,720,165.3C840,160,960,224,1080,234.7C1200,245,1320,203,1380,181.3L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> -->
 <script src="app.js"></script>
 
 <div class="main" id="about" id="startchange">

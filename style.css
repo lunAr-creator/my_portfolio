@@ -32,12 +32,12 @@ html {
 /* -----------------------------Background------------------------------- */
 /* ---------------------------------------------------------------------- */
 
-/* .bg {
-  background-image: url("background2.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
+.bg {
+  background-image: url("https://i.ibb.co/92Ysyyh/gradient-blur-wallpaper.jpg");
+  height: 25vh;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .bgtext {
@@ -53,9 +53,9 @@ html {
   }
 
   .bg {
-    background-image: url("background2.jpg");
+    background-image: url("https://i.ibb.co/92Ysyyh/gradient-blur-wallpaper.jpg");
   }
-} */
+}
 
 
 /* ---------------------------------------------------------------------- */
@@ -124,9 +124,14 @@ html {
   font-size: 20px;
 }
 
+.logo_text {
+  text-decoration: none;
+  color: white;
+}
+
 /* Transition and color of attribute tags */
 .menu a{
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   padding: 0 20px;
   transition: 0.4s;
@@ -140,6 +145,7 @@ html {
   color: black;
 }
 
+
 .show-menu-btn{
   float: right;
 }
@@ -148,11 +154,11 @@ html {
   line-height: 100px;
 }
 
-.menu a:hover,
+/* .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover {
   color: #AEC6CF;
-}
+} */
 
 #chk{
   position: absolute;
