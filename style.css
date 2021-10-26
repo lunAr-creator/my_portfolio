@@ -134,15 +134,16 @@ html {
   color: #ffffff;
   text-decoration: none;
   padding: 0 20px;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
-.fas fa-bars {
+.fa-bars {
   color: white;
 }
 
-.fas fa-bars.fixed {
+.fa-bars.fixed {
   color: black;
+  transition: 0.3s;
 }
 
 .show-menu-btn,.hide-menu-btn{
@@ -151,7 +152,6 @@ html {
   cursor: pointer;
   display: none;
 }
-
 
 .show-menu-btn{
   float: right;

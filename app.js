@@ -30,7 +30,7 @@ const link3 = document.querySelector('#link3')
 // }
 
 let header = document.querySelector('.header');
-const hamburger = document.querySelector('.fas fa-bars');
+const hamburger = document.querySelector('.fa-bars');
 
 const getOffset = () => {
   if(window.pageYOffset > 100){
