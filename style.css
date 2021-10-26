@@ -137,12 +137,19 @@ html {
   transition: 0.4s;
 }
 
+.fas fa-bars {
+  color: white;
+}
+
+.fas fa-bars.fixed {
+  color: black;
+}
+
 .show-menu-btn,.hide-menu-btn{
   transition: 0.4s;
   font-size: 30px;
   cursor: pointer;
   display: none;
-  color: black;
 }
 
 
@@ -159,6 +166,36 @@ html {
 .hide-menu-btn:hover {
   color: #AEC6CF;
 } */
+
+.header a {
+  color: #FFF;
+}
+
+.header a:hover {
+  color: #AEC6CF;
+  transition: 0.4s ease-out;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0);
+  transition: 0.2s ease-out;
+}
+
+.header.fixed {
+  background: #fff;
+  transition: 0.4s ease-out;
+}
+
+.header.fixed a {
+  color: #000;
+}
+
+.header.fixed a:hover {
+  color: #AEC6CF;
+}
+
+
+/* !important */
 
 #chk{
   position: absolute;
