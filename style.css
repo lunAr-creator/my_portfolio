@@ -44,7 +44,7 @@ html {
 .bgtext {
   padding-top: 20%;
   text-align: left;
-  padding-left: 100px;
+  padding-left: 300px;
 }
 
 @media screen and (max-width:800px) {
