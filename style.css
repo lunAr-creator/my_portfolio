@@ -33,11 +33,11 @@ html {
 /* ---------------------------------------------------------------------- */
 
 .bg {
-  background-image: url("https://i.ibb.co/92Ysyyh/gradient-blur-wallpaper.jpg");
+  background-image: url("https://i.ibb.co/L60NLPY/download.png");
   height: 25vh;
-  background-size: cover;
+  /* background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 .bgtext {
@@ -51,12 +51,13 @@ html {
     padding-left: 20px;
     font-size: 15px;
   }
-
-  .bg {
-    background-image: url("https://i.ibb.co/92Ysyyh/gradient-blur-wallpaper.jpg");
-  }
 }
 
+
+.header_image {
+  height: 25vh;
+  background-color: #212539
+}
 
 /* ---------------------------------------------------------------------- */
 /* -----------------------------Navigation------------------------------- */
