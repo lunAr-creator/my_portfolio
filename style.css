@@ -64,6 +64,46 @@ html {
   background-color: #212539
 }
 
+#showcase{
+  background-image: url('https://wallpapertag.com/wallpaper/full/2/b/1/323843-geometric-wallpaper-1920x1080-hd-for-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1{
+  font-size: 50px;
+  line-height: 1.2;
+  color: white;
+}
+
+#showcase p{
+  font-size: 20px;
+  color: white;
+}
+
+#showcase .button{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  border: #AEC6CF 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: 0.1s ease-in;
+}
+
+#showcase .button:hover{
+  transition: 0.1s ease-in;
+  letter-spacing: 1px;
+}
+
 /* ---------------------------------------------------------------------- */
 /* -----------------------------Navigation------------------------------- */
 /* ---------------------------------------------------------------------- */
