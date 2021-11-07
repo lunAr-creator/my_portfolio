@@ -677,7 +677,7 @@ img {
   padding: 5px;
   margin: 0 auto;
   border-radius: 25%;
-  background-color: #AEC6CF;
+  /* background-color: #AEC6CF; */
 }
 
 @media (min-width: 800px) {
