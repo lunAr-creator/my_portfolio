@@ -635,3 +635,97 @@ img {
   margin: 0.5rem 0 1rem 0;
   font-size: 25px;
 }
+
+
+.container3 {
+  max-width: 1280px;
+  padding: 20px;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+
+#about2 {
+  display: flex;
+  padding: 20px 0;
+  min-height: 50vh;
+  align-items: center;
+}
+
+#about2 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#about2 .contents {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 1fr;
+}
+
+#about2 .contents p {
+  margin-top: 10px;
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+#about2 .contents img {
+  width: 300px;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 25%;
+  background-color: #AEC6CF;
+}
+
+@media (min-width: 800px) {
+  #about2 {
+    padding: 50px 0;
+  }
+
+  #about2 h2 {
+    margin-bottom: 50px;
+  }
+
+  #about2 .contents {
+    grid-template-columns: 1fr 4fr;
+  }
+
+  #about2 .contents img {
+    width: 100%;
+  }
+}
+
+/* Section for text */
+/* .main {
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Make text smaller and centered on desktop screen */
+/* .main p {
+  margin-top: 10px;
+  font-size: 18px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* Header Underline */
+/* hr {
+  width: 280px;
+  text-align: left;
+  margin-top: 10px;
+  color: black;
+  margin-left: 100px;
+} */
+
+/* Adds space for navbar to scroll to */
+/* .main h2 {
+  margin-top: 90px;
+  padding-bottom: 20px; */
+} */ */
