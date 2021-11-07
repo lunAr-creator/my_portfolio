@@ -636,6 +636,9 @@ img {
   font-size: 25px;
 }
 
+/* ---------------------------------------------------------------------- */
+/* ---------------------------About-me-scetion----------------------------- */
+/* ---------------------------------------------------------------------- */
 
 .container3 {
   max-width: 1280px;
@@ -665,9 +668,9 @@ img {
 
 #about2 .contents p {
   margin-top: 10px;
-  font-size: 18px;
-  padding-left: 40px;
-  padding-right: 40px;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   line-height: 1.2;
   text-align: left;
 }
@@ -694,7 +697,7 @@ img {
   }
 
   #about2 .contents img {
-    width: 100%;
+    width: 85%;
   }
 }
 
