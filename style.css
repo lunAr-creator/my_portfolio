@@ -65,9 +65,10 @@ html {
 }
 
 #showcase{
-  background-image: url('https://wallpapertag.com/wallpaper/full/2/b/1/323843-geometric-wallpaper-1920x1080-hd-for-mobile.jpg');
+  /* background-image: url('https://wallpapertag.com/wallpaper/full/2/b/1/323843-geometric-wallpaper-1920x1080-hd-for-mobile.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+  background-color: #161616;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -92,7 +93,7 @@ html {
   font-size: 18px;
   text-decoration: none;
   color: white;
-  border: #AEC6CF 1px solid;
+  border: #f1c40f 1px solid;
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 20px;
