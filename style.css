@@ -229,6 +229,7 @@ html {
 
 .header.fixed {
   background: #fff;
+  box-shadow: 0 20px 20px -14px rgba(0, 0, 0, 0.15);
   transition: 0.4s ease-out;
 }
 
@@ -302,19 +303,19 @@ html {
   }
 
   .header {
-    height: 90px;
+    height: 80px;
   }
 
   .logo {
-    line-height: 90px;
+    line-height: 80px;
   }
 
   .menu ul a {
-    line-height: 90px;
+    line-height: 80px;
   }
 
   .show-menu-btn i, .hide-menu-btn i{
-    line-height: 90px;
+    line-height: 80px;
   }
 
   .hide-menu-btn {
@@ -637,7 +638,7 @@ img {
 }
 
 /* ---------------------------------------------------------------------- */
-/* ---------------------------About-me-scetion----------------------------- */
+/* ---------------------------About-me-section----------------------------- */
 /* ---------------------------------------------------------------------- */
 
 .container3 {
