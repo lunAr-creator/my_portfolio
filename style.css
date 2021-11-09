@@ -5,7 +5,7 @@
 body {
   font-family: 'Montserrat';
   font-size: 22px;
-  background-color: #fff;
+  background-color: #161616;
 }
 
 *, body{
@@ -193,6 +193,11 @@ html {
   transition: 0.3s;
 }
 
+.fa-bars.fixed:hover {
+  color: #f1c40f;
+  transition: 0.3s;
+}
+
 .show-menu-btn,.hide-menu-btn{
   transition: 0.4s;
   font-size: 30px;
@@ -219,7 +224,7 @@ html {
 }
 
 .header a:hover {
-  color: #AEC6CF;
+  color: #f1c40f;
   transition: 0.4s ease-out;
 }
 
@@ -239,7 +244,7 @@ html {
 }
 
 .header.fixed a:hover {
-  color: #AEC6CF;
+  color: #f1c40f;
 }
 
 
@@ -381,8 +386,10 @@ i {
 
 }
 
+/* #AEC6CF */
+
 i:hover {
-  color: #AEC6CF;
+  color: #f1c40f;
   transition: 0.4s;
   cursor: pointer;
 }
@@ -771,7 +778,7 @@ section h1{
 section h2{
   font-size: 40px;
   text-align: center;
-  text-transform: uppercase;
+  color: #f1c40f;
 }
 
 section .cards2{
@@ -779,16 +786,20 @@ section .cards2{
 }
 
 section .cards2 .text-card{
-  background: #2696E9;
+  color: white;
   margin: 20px;
   padding: 20px;
+  text-align: center;
 }
 
 section .cards2 .text-card h3{
   font-size: 30px;
   text-align: center;
-  text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+section .cards2 .text-card p{
+  font-size: 20px;
 }
 
 @media (max-width: 900px){
