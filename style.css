@@ -789,11 +789,11 @@ section .cards2 .text-card{
   color: white;
   margin: 20px;
   padding: 20px;
-  text-align: center;
+  background-color: #fff1;
 }
 
 section .cards2 .text-card h3{
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   margin-bottom: 10px;
 }
