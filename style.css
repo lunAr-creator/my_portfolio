@@ -799,6 +799,10 @@ section .cards2 .text-card h3{
   section .cards2{
     flex-direction: column;
   }
+
+  section .container2 {
+    margin: 20px;
+  }
 }
 
 .reveal{
