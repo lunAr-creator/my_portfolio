@@ -234,7 +234,7 @@ html {
 }
 
 .header.fixed {
-  background: #fff;
+  background-color: #f1c40f;
   box-shadow: 0 20px 20px -14px rgba(0, 0, 0, 0.15);
   transition: 0.4s ease-out;
 }
@@ -374,7 +374,7 @@ hr {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: #161616;
   color: black;
   text-align: center;
   padding-top: 25px;
@@ -394,6 +394,20 @@ i:hover {
   cursor: pointer;
 }
 
+.fa-github, .fa-instagram, .fa-stack-overflow {
+  color: #fff3 !important;
+  transition: 0.4s;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.fa-github:hover, .fa-instagram:hover, .fa-stack-overflow:hover {
+  color: #fff8 !important;
+  transition: 0.4s;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
 
 /* Make text larger and on the left for mobile */
 @media screen and (max-width:800px) {
@@ -409,7 +423,7 @@ i:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #161616;
     color: black;
     text-align: center;
     padding-top: 25px;
@@ -790,6 +804,7 @@ section .cards2 .text-card{
   margin: 20px;
   padding: 20px;
   background-color: #fff1;
+  border-radius: 3px;
 }
 
 section .cards2 .text-card h3{
@@ -799,7 +814,7 @@ section .cards2 .text-card h3{
 }
 
 section .cards2 .text-card p{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media (max-width: 900px){
