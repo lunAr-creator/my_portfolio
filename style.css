@@ -5,7 +5,7 @@
 body {
   font-family: 'Montserrat';
   font-size: 22px;
-  background-color: #161616;
+  background-color: #fff;
 }
 
 *, body{
@@ -36,9 +36,9 @@ html {
   background-image: url("https://i.ibb.co/L60NLPY/download.png");
   height: 25vh;
   margin-left: 20px;
-  /* background-size: cover;
+  background-size: cover;
   background-position: center;
-  background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 .bgtext {
@@ -65,10 +65,9 @@ html {
 }
 
 #showcase{
-  /* background-image: url('https://wallpapertag.com/wallpaper/full/2/b/1/323843-geometric-wallpaper-1920x1080-hd-for-mobile.jpg');
+  background-image: url('https://wallpapertag.com/wallpaper/full/2/b/1/323843-geometric-wallpaper-1920x1080-hd-for-mobile.jpg');
   background-size: cover;
-  background-position: center; */
-  background-color: #161616;
+  background-position: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -93,7 +92,7 @@ html {
   font-size: 18px;
   text-decoration: none;
   color: white;
-  border: #f1c40f 1px solid;
+  border: #AEC6CF 1px solid;
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 20px;
@@ -194,7 +193,7 @@ html {
 }
 
 .fa-bars.fixed:hover {
-  color: #f1c40f;
+  color: #AEC6CF;
   transition: 0.3s;
 }
 
@@ -224,7 +223,7 @@ html {
 }
 
 .header a:hover {
-  color: #f1c40f;
+  color: #AEC6CF;
   transition: 0.4s ease-out;
 }
 
@@ -234,7 +233,7 @@ html {
 }
 
 .header.fixed {
-  background-color: #f1c40f;
+  background-color: #fff;
   box-shadow: 0 20px 20px -14px rgba(0, 0, 0, 0.15);
   transition: 0.4s ease-out;
 }
@@ -244,7 +243,7 @@ html {
 }
 
 .header.fixed a:hover {
-  color: #f1c40f;
+  color: #AEC6CF;
 }
 
 
@@ -374,7 +373,7 @@ hr {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #161616;
+  background-color: white;
   color: black;
   text-align: center;
   padding-top: 25px;
@@ -382,20 +381,19 @@ hr {
 }
 
 i {
-  color: black;
-
+  color: grey;
 }
 
 /* #AEC6CF */
 
-i:hover {
-  color: #f1c40f;
+/* i:hover {
+  color: #AEC6CF;
   transition: 0.4s;
   cursor: pointer;
-}
+} */
 
 .fa-github, .fa-instagram, .fa-stack-overflow {
-  color: #fff3 !important;
+  color: grey !important;
   transition: 0.4s;
   cursor: pointer;
   padding-bottom: 10px;
@@ -404,7 +402,7 @@ i:hover {
 }
 
 .fa-github:hover, .fa-instagram:hover, .fa-stack-overflow:hover {
-  color: #fff8 !important;
+  color: #AEC6CF !important;
   transition: 0.4s;
   cursor: pointer;
   margin-bottom: 5px;
@@ -428,7 +426,6 @@ i:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #161616;
     color: black;
     text-align: center;
     padding-top: 25px;
@@ -526,7 +523,7 @@ img {
 .card {
   background-color: #f1f1f1;
   border-radius: 0.25rem;
-  /*box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);*/
+  /* box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25); */
   box-shadow: 0px 0px 20px var(--clr-graymed);
   display: flex;
   flex-direction: column;
@@ -675,7 +672,6 @@ img {
   margin: 0 auto;
 }
 
-
 #about2 {
   display: flex;
   padding: 20px 0;
@@ -705,6 +701,7 @@ img {
 
 #about2 .contents img {
   width: 300px;
+  height: auto;
   padding: 5px;
   margin: 0 auto;
   border-radius: 25%;
