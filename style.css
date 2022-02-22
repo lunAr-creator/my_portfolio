@@ -33,7 +33,7 @@ html {
 /* ---------------------------------------------------------------------- */
 
 .bg {
-  background-image: url("https://i.ibb.co/L60NLPY/download.png");
+  background-image: url("https://i.redd.it/7aw9hehyndj81.jpg");
   height: 25vh;
   margin-left: 20px;
   background-size: cover;
@@ -65,7 +65,7 @@ html {
 }
 
 #showcase{
-  background-image: url('https://wallpapertag.com/wallpaper/full/2/b/1/323843-geometric-wallpaper-1920x1080-hd-for-mobile.jpg');
+  background-image: url('https://i.redd.it/7aw9hehyndj81.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -96,12 +96,12 @@ html {
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 20px;
-  transition: 0.1s ease-in;
+  transition: 0.2s ease-in;
 }
 
 #showcase .button:hover{
-  transition: 0.1s ease-in;
-  letter-spacing: 1px;
+  transition: 0.2s ease-in;
+  letter-spacing: 1.3px;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -306,6 +306,7 @@ html {
   #chk:checked ~ .menu{
     right: 0;
   }
+
 
   .header {
     height: 80px;
