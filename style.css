@@ -344,7 +344,7 @@ hr {
   text-align: left;
   margin-top: 10px;
   color: black;
-  margin-left: 50%;
+  margin-left: 100px;
 }
 
 /* Adds space for navbar to scroll to */
@@ -443,9 +443,6 @@ i {
 }
 
  .cards {
-   display: flex;
-   align-items: flex-start;
-   justify-content: center;
 	 gap: 2.5rem;
 	 width: 90%;
 	 max-width: 900px;
